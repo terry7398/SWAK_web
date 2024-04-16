@@ -1,0 +1,47 @@
+
+{
+"Problem": {
+"마네킹 옷 문제": {
+"ProblemContent": "마네킹의 옷 주머니속에 써져있는 답",
+"AnswerType": "숫자 or 알파벳"
+},
+"UV빛 문제": {
+"ProblemContent": "UV빛을 비추면 보이게 되는 답",
+"AnswerType": "숫자 or 알파벳"
+},
+"시계 방향 문제": {
+"ProblemContent": "시계 그림을 이용한 시계 방향에 따른 방향 형식의 답",
+"AnswerType": "방향",
+"Example": "ex) 🕛🕡 --> 위, 아래"
+},
+"영어 대문자 문제": {
+"ProblemContent": "여러 영어 문장에서 대문자만 알파벳으로 이은 답",
+"AnswerType": "알파벳",
+"Example": "ex) mathematics is an area of knowledge that includes the topics of numbers, formulas and related structures, shaPes and the spaces in which they Are contained, and quantitieS and their changeS. \\n -> PASS"
+},
+"십자가 문제": {
+"ProblemContent": "십자가 소품을 벽에 걸었을 때 사면의 화살표가 가리키는 답",
+"AnswerType": "숫자"
+},
+"전자 숫자 문제": {
+"ProblemContent": "전자 숫자를 배분하여 쓴 종이 두장을 조합한 답",
+"AnswerType": "숫자"
+},
+"달력 문양 문제": {
+"ProblemContent": "달력에 표시된 문양중 같은 모양을 조합한 답",
+"AnswerType": "알파벳"
+},
+"한국어 맞춤법 문제": {
+"ProblemContent": "한글 문장에서 맞춤법이 틀린 글자의 획수를 조합한 답",
+"AnswerType": "숫자",
+"Example": "ex) 이재 막 성장새를 타기 시작햇는대 아쉽다. 재 -> 6, 새 -> 5, 햇 -> 8, 대 -> 5 ---> 6585"
+},
+"구구단 문제": {
+"ProblemContent": "구구단 숫자를 4개씩 띄어쓰기 해 다음 네 개의 숫자를 맞추는 답",
+"AnswerType": "숫자",
+"Example": "8188 2168 3248 4328 xxxx -> 5408"
+}
+},
+"Story": "#인트로\n#지식카드를 통해 교도소라는 사실을 인지한다\n정체불명의 방에서 눈을 뜬다. (교도소)\n\n(시계 방향 문제)(방향)\n#시계 4개를 사용해 방향 문제를 만든다\n\n문제를 풀어 신문을 발견한다. \n#신문에서 교도소에서 의문의 이유로 사람들이 사라진다는 사실을 알게 된다\n#단 사이비라는 사실은 인터뷰에서만 언급, 크게 보이지 않게 한다\n\n(한국어 맞춤법 문제)(숫자)\n#신문에 3번째 타이틀에 맞춤법이 틀린 내용을 통해 각 글자의 획수를 구한다\n\n그 방을 전에 사용했던 사람이 쓴 일기를 발견하고 탈출을 결심한다. \n#일기에는 이 교도소가 사이비와 연관이 있다는 것, 자신의 옆방, 옆옆방들도 잡혀간 것 같다는 말들을 보게 된다\n\n(UV빛 + 구구단 문제)(숫자)\n#UV라이트는 옆 연필통에 있다\n#구구단 문제를 통해 4자리 숫자를 얻는다\n\n\n다음 순서가 본인들이라는 사실을 인지한다. \n#자물쇠로 잠겨진 상자에서 발견\n#일기장의 뒷장에서 발견한다\n#나가라는 느낌을 받게 된다\n\n(전자숫자 문제)(숫자)\n\n탈출한다.\n"
+}
+
