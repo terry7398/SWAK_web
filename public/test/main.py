@@ -10,15 +10,13 @@ import uvicorn
 
 app = FastAPI()
 
-app.mount("/public/static", StaticFiles(directory="public/static"), name="static")
+app.mount("/static", StaticFiles(directory="/static"), name="static")
 
-templates = Jinja2Templates(directory="public/templates")
+templates = Jinja2Templates(directory="/templates")
 
 @app.get("/", response_class=HTMLResponse)
 async def read_root(request: Request):
-    header_value = request.headers.get("header-name")
-    #return templates.TemplateResponse("index.html", {"request": request}) , 
-    return f"{request.headers}"
+    return templates.TemplateResponse("index.html", {"request": request})
 
 @app.get("/reservation/{number}")
 def send(number: int):
